@@ -11,6 +11,6 @@ function calculateAverage(numbers) {
 }
 * */
 
-function calculateAverage(numbers){
-    return numbers.reduce((acc, curr)=> acc + curr, 0)/numbers.length
+const calculateAverage = numbers =>  {
+  return numbers.reduce((acc, curr) => acc + curr, 0) / numbers.length;
 }

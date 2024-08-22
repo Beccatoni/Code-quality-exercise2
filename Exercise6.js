@@ -13,6 +13,4 @@
   
  */
 
-function maxNumber(a,b,c){
-    return Math.max(a,b,c)
-}
+const largestNumber = (num1, num2, num3) => Math.max(num1, num2, num3)

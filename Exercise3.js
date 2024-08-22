@@ -9,7 +9,4 @@
 
  */
 
-function reverseString(word){
-    return word.split('').reverse().join('')
-}
-
+const reverseString = word => word.split("").reverse().join("");
