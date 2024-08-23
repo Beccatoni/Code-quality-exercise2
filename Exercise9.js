@@ -8,14 +8,6 @@
 }
  */
 
-
-
-function calculateMatrixSum(matrix){
-    return matrix.flat().reduce((acc,curr)=> acc + curr, 0)
-}
-
-console.log(calculateMatrixSum( [
-    [12, 14, 13],
-    [18, 15, 16],
-    [17, 11, 19],
-]))
+const calculateMatrixSum = matrix => {
+  return matrix.flat().reduce((acc, curr) => acc + curr, 0);
+};
